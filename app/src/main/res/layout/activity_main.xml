@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="409px"
+        android:layout_marginTop="4dp"
+        android:background="#3AC5D3"
+        android:gravity="center_vertical|right"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="200px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_result"
+        app:layout_constraintVertical_bias="0.506">
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="8"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="9"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FF6E40"
+            android:onClick="inputOperand"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="6"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FF6E40"
+            android:onClick="inputOperand"
+            android:text="-"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FF6E40"
+            android:onClick="inputOperand"
+            android:text="*"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FF0000"
+            android:onClick="clearAction"
+            android:text="AC"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FFC107"
+            android:onClick="inputNumber"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FF6E40"
+            android:onClick="resultAction"
+            android:text="="
+            android:textColor="@color/white"
+            android:textSize="150px" />
+
+        <Button
+            android:layout_width="216px"
+            android:layout_height="216px"
+            android:layout_margin="25px"
+            android:background="#FF6E40"
+            android:onClick="inputOperand"
+            android:text="/"
+            android:textColor="@color/white"
+            android:textSize="150px" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
