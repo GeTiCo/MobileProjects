@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3AC5D3"
+    android:background="#74CCCF"
     tools:context=".LaunchScreen">
 
 
@@ -27,7 +27,7 @@
         android:fontFamily="@font/chakrapetchmedium"
         android:gravity="center"
         android:text="FedorenkoCalc"
-        android:textColor="#FF0000"
+        android:textColor="#EF4824"
         android:textSize="100px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
